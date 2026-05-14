@@ -44,7 +44,7 @@
 
 <section class="my-16">
     <h2>Experience</h2>
-    <p class="text-muted-foreground mt-1">My favorite tools recently</p>
+    <p class="text-muted-foreground mt-1 text-sm">My favorite tools recently</p>
 
     {#snippet experienceItem(item: ExperienceItem)}
         <Item.Root variant="outline">

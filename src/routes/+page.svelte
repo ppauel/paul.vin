@@ -1,13 +1,13 @@
 <script lang="ts">
-    import '@styles/index.scss';
-    import Projects from "@sections/Projects.svelte";
-    import Contact from "@sections/Contact.svelte";
-    import About from "@sections/About.svelte";
+    import Separator from "$lib/components/shadcn-svelte/separator/separator.svelte";
+    import About from "$lib/components/sections/about.svelte";
+    import Projects from "$lib/components/sections/projects.svelte";
+    import Experience from "$lib/components/sections/experience.svelte";
 </script>
 
-<svelte:head>
-</svelte:head>
-
 <About />
+
+<Separator />
+
 <Projects />
-<Contact />
+<Experience />
